@@ -78,6 +78,7 @@ if args.l:
         print(nbr)
 
 elif args.a:
+    read_in_file()
     for val in args.a:
         if val.isdigit():
             listeVals.append(val)
